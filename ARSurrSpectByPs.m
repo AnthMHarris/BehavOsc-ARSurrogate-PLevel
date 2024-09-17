@@ -22,6 +22,8 @@
 %   License:  This work is licensed under the Creative Commons Attribution 4.0 license (CC BY 4.0). 
 %             To view a copy of this license, visit: https://creativecommons.org/licenses/by/4.0/ 
 %
+%   The Software and related documentation are provided “AS IS” and without any warranty of any kind.
+%
 function [deviation, frex, real_amp] = ARSurrSpectByPs(data, srate, n_surrogates, pad)
     
     if nargin < 3 || isempty(n_surrogates)
